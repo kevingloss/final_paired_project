@@ -33,7 +33,7 @@ RSpec.describe Passenger do
   end
 
   describe '#drive' do
-    xit 'makes the passenger the driver if they are an adult' do
+    it 'makes the passenger the driver if they are an adult' do
       @charlie.drive
 
       expect(@charlie.driver?).to be(true)
